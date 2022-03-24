@@ -1,0 +1,31 @@
+.shopping-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+   
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.card-container{
+    padding-left: 20px;
+    background-color: rgba(255, 224, 179, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .shop-container{
+        grid-template-columns: repeat(1,1fr);
+     
+    }
+    .card-container{
+        margin-left: 5px;
+       
+    }
+    .shopping-container{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+      
+       
+    }
+  }

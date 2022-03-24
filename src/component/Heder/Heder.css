@@ -1,0 +1,42 @@
+.Heder{
+    height: 80px;
+    background-color:rgb(28,43,53);
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+   
+}
+.Heder a{
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 15px;
+    color: white;
+}
+.Heder a:hover{
+    color: coral;
+}
+
+@media only screen and (max-width: 600px) {
+    .Heder{
+        height: auto;
+        width:auto;
+        display: inline-block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    .Heder a{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: auto;
+      
+    }
+    #list-Itam{
+       margin-left: -30px;
+    }
+  }
